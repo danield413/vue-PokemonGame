@@ -13,16 +13,16 @@
 
 <script>
 export default {
-   props: {
+    props: {
         pokemonId: {
             type: Number,
             required: true
         },
-         showPokemon: {
-               type: Boolean,
-               required: true,
-               default: false
-         }
+        showPokemon: {
+            type: Boolean,
+            required: true,
+            default: false
+        }
     },
 
     computed: {
